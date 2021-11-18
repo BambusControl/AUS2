@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="Filter&lt;Key, Data&gt;">
+    <Position X="2.75" Y="0.5" Width="5.25" />
+    <Members>
+      <Method Name="~Filter" Hidden="true" />
+      <Method Name="Filter" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="Filter&lt;Key, Data&gt;::_Table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>program\data\handlers\filters\Filter.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAQAAAAAAAEAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\filters\Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterComposite&lt;Key, Data&gt;">
+    <Position X="5.5" Y="4.5" Width="3.75" />
+    <Members>
+      <Method Name="~FilterComposite" Hidden="true" />
+      <Method Name="FilterComposite" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="FilterComposite&lt;Key, Data&gt;::_Filter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>program\data\handlers\filters\FilterComposite.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <InheritanceLine Type="Filter&lt;Key, Data&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.375" Y="2.055" />
+        <Point X="5.375" Y="5.875" />
+        <Point X="5.5" Y="5.875" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.102" Y="1.165" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAEASAAIAAAAAAAAAQAAACAAA=</HashCode>
+      <FileName>program\data\handlers\filters\FilterComposite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterByInterval&lt;Key, Data, Value&gt;">
+    <Position X="0.5" Y="4.75" Width="4.75" />
+    <Members>
+      <Method Name="~FilterByInterval" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Filter&lt;Key, Data&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.375" Y="2.055" />
+        <Point X="5.375" Y="5.875" />
+        <Point X="5.25" Y="5.875" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.223" Y="1.436" Height="0.182" Width="0.542" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBAAAAAIAAAAAAAAACAAAgAAAAAAAIA=</HashCode>
+      <FileName>program\data\handlers\filters\FilterByInterval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterByValue&lt;Key, Data, Value&gt;">
+    <Position X="0.5" Y="2.25" Width="4" />
+    <Members>
+      <Method Name="~FilterByValue" Hidden="true" />
+      <Method Name="getValue" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Filter&lt;Key, Data&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.375" Y="2.055" />
+        <Point X="5.375" Y="3.688" />
+        <Point X="4.5" Y="3.688" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.213" Y="0.055" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQDAAAAAAAAAAAAAAACAgAAAAAAAAAAg=</HashCode>
+      <FileName>program\data\handlers\filters\FilterByValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUJ_Nazov">
+    <Position X="5.5" Y="2.25" Width="3.75" />
+    <InheritanceLine Type="FilterByValue&lt;Key, Data, Value&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="3" />
+        <Point X="5.292" Y="3" Type="JumpStart" />
+        <Point X="5.458" Y="3" Type="JumpEnd" />
+        <Point X="5.5" Y="3" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.298" Y="0.058" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\filters\FUJ_Nazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FilterType">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQAAAAAAAAAAAAEAACAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>program\data\handlers\filters\Filter.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

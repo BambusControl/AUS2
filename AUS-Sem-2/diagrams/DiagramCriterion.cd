@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="Criterion&lt;In, Out&gt;">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\Criterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionUJ&lt;Out&gt;">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_Nazov" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="2.375" />
+        <Point X="4.5" Y="2.375" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.06" Y="0.11" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_Typ" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="2.375" />
+        <Point X="5.5" Y="2.375" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.055" Y="0.11" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_Prislusnost" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAACEAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetMladych" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.75" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.039" Y="0.11" Height="0.182" Width="0.573" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetDospelych" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetDochodcov" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetObyvatelov" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_CelkovaVymera" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.75" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="5.375" />
+        <Point X="4.5" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_ZastavanaPlocha" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.75" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="5.375" />
+        <Point X="5.5" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_Zastavanost" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="CriterionUJ&lt;Out&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.075" Y="0.12" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\criteria\CriterionUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CriterionType">
+    <Position X="0.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAgAAAAAAAAAAhKQAAAAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>program\data\handlers\criteria\Criterion.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

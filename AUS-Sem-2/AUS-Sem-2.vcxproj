@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{30530d97-0d0f-4ba6-9a8d-49f781c136f2}</ProjectGuid>
+    <RootNamespace>AUSSem2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4100; 4634; 4400</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4100; 4634; 4400; 4267</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4100; 4634; 4400; 4267; 4702</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="diagrams\DiagramCFormatter.cd" />
+    <None Include="diagrams\DiagramCriterion.cd" />
+    <None Include="diagrams\DiagramFFormatter.cd" />
+    <None Include="diagrams\DiagramFilter.cd" />
+    <None Include="diagrams\Helpers.cd" />
+    <None Include="DiagramTest.cd" />
+    <None Include="program\data\sources\1_ObceSR.csv" />
+    <None Include="program\data\sources\2_UzemneClenenieSR.csv" />
+    <None Include="program\data\sources\3_ZoznamZoskupeniBytovychJednotiekSR.csv" />
+    <None Include="program\data\sources\4_BytoveJednotkySR.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\common\ConsoleIO.cpp" />
+    <ClCompile Include="program\main.cpp" />
+    <ClCompile Include="program\structures\ds_routines.cpp" />
+    <ClCompile Include="program\structures\graph\algorithms\dijkstra.cpp" />
+    <ClCompile Include="program\structures\graph\bi_star_graph.cpp" />
+    <ClCompile Include="program\structures\graph\forward_star_graph.cpp" />
+    <ClCompile Include="program\structures\graph\graph.cpp" />
+    <ClCompile Include="program\structures\graph\graph_with_registration.cpp" />
+    <ClCompile Include="program\structures\memory_routines.cpp" />
+    <ClCompile Include="program\structures\structure.cpp" />
+    <ClCompile Include="program\structures\vector\vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\common\ConsoleIO.h" />
+    <ClInclude Include="program\common\heap_monitor.h" />
+    <ClInclude Include="program\common\SvkStr.h" />
+    <ClInclude Include="program\data\Data.h" />
+    <ClInclude Include="program\data\handlers\criteria\Criterion.h" />
+    <ClInclude Include="program\data\handlers\criteria\CriterionUJ.h" />
+    <ClInclude Include="program\data\handlers\filters\Filter.h" />
+    <ClInclude Include="program\data\handlers\filters\FilterByInterval.h" />
+    <ClInclude Include="program\data\handlers\filters\FilterByValue.h" />
+    <ClInclude Include="program\data\handlers\filters\FilterComposite.h" />
+    <ClInclude Include="program\data\handlers\filters\FUJ_Nazov.h" />
+    <ClInclude Include="program\data\handlers\formatters\CriterionFormatter.h" />
+    <ClInclude Include="program\data\handlers\formatters\CriterionFormatterUJ.h" />
+    <ClInclude Include="program\data\handlers\formatters\DataFormatter.h" />
+    <ClInclude Include="program\data\handlers\formatters\FilterFormatter.h" />
+    <ClInclude Include="program\data\handlers\formatters\FilterFormatterUJ.h" />
+    <ClInclude Include="program\data\handlers\Sequencer.h" />
+    <ClInclude Include="program\data\holders\Canton.h" />
+    <ClInclude Include="program\data\parsers\CsvParser.h" />
+    <ClInclude Include="program\Menu.h" />
+    <ClInclude Include="program\structures\array\array.h" />
+    <ClInclude Include="program\structures\ds_routines.h" />
+    <ClInclude Include="program\structures\ds_structure_types.h" />
+    <ClInclude Include="program\structures\graph\algorithms\dijkstra.h" />
+    <ClInclude Include="program\structures\graph\bi_star_graph.h" />
+    <ClInclude Include="program\structures\graph\forward_star_graph.h" />
+    <ClInclude Include="program\structures\graph\graph.h" />
+    <ClInclude Include="program\structures\graph\graph_with_registration.h" />
+    <ClInclude Include="program\structures\heap_monitor.h" />
+    <ClInclude Include="program\structures\list\array_list.h" />
+    <ClInclude Include="program\structures\list\linked_list.h" />
+    <ClInclude Include="program\structures\list\list.h" />
+    <ClInclude Include="program\structures\memory_routines.h" />
+    <ClInclude Include="program\structures\priority_queue\heap.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_limited_sorted_array_list.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_linked_list.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_list.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_sorted_array_list.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_two_lists.h" />
+    <ClInclude Include="program\structures\priority_queue\priority_queue_unsorted_array_list.h" />
+    <ClInclude Include="program\structures\queue\explicit_queue.h" />
+    <ClInclude Include="program\structures\queue\implicit_queue.h" />
+    <ClInclude Include="program\structures\queue\queue.h" />
+    <ClInclude Include="program\structures\stack\explicit_stack.h" />
+    <ClInclude Include="program\structures\stack\implicit_stack.h" />
+    <ClInclude Include="program\structures\stack\stack.h" />
+    <ClInclude Include="program\structures\structure.h" />
+    <ClInclude Include="program\structures\structure_iterator.h" />
+    <ClInclude Include="program\structures\table\binary_search_tree.h" />
+    <ClInclude Include="program\structures\table\hash_table.h" />
+    <ClInclude Include="program\structures\table\linked_table.h" />
+    <ClInclude Include="program\structures\table\sequence_table.h" />
+    <ClInclude Include="program\structures\table\sorted_sequence_table.h" />
+    <ClInclude Include="program\structures\table\table.h" />
+    <ClInclude Include="program\structures\table\treap.h" />
+    <ClInclude Include="program\structures\table\unsorted_sequence_table.h" />
+    <ClInclude Include="program\structures\tree\binary_tree.h" />
+    <ClInclude Include="program\structures\tree\k_way_tree.h" />
+    <ClInclude Include="program\structures\tree\multi_way_tree.h" />
+    <ClInclude Include="program\structures\tree\tree.h" />
+    <ClInclude Include="program\structures\vector\vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="program\data\sources\codepage(windows)1250.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

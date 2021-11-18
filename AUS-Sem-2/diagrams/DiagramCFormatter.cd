@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="CriterionFormatter">
+    <Position X="2" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="_filler" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAACCAAAAAAAIAAAAAAABAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_NazovFormatter" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.75" />
+    <InheritanceLine Type="CUJ_Formatter">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QBAAQAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_TypFormatter" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PrislusnostFormatter" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACAAAAAAAAIAAAQAAAAgAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetMladychFormatter" Collapsed="true">
+    <Position X="0.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetDospelychFormatter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <InheritanceLine Type="CUJ_Formatter" FixedToPoint="true">
+      <Path>
+        <Point X="3.625" Y="3.191" />
+        <Point X="3.625" Y="3.813" />
+        <Point X="3" Y="3.813" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetDochodcovFormatter" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="2.5" />
+    <InheritanceLine Type="CUJ_Formatter">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.068" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_PocetObyvatelovFormatter" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="2.5" />
+    <InheritanceLine Type="CUJ_Formatter" FixedToPoint="true">
+      <Path>
+        <Point X="3.625" Y="3.191" />
+        <Point X="3.625" Y="3.813" />
+        <Point X="4.25" Y="3.813" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_CelkovaVymeraFormatter" Collapsed="true">
+    <Position X="4.5" Y="5" Width="2.25" />
+    <InheritanceLine Type="CUJ_Formatter">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_ZastavanaPlochaFormatter" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_ZastavanostFormatter" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="2" />
+    <InheritanceLine Type="CUJ_Formatter">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="0.06" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgBAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUJ_Formatter" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.75" />
+    <Members>
+      <Field Name="_widthNazov" Hidden="true" />
+      <Field Name="_widthNazovKraj" Hidden="true" />
+      <Field Name="_widthNazovObec" Hidden="true" />
+      <Field Name="_widthNazovOkres" Hidden="true" />
+      <Field Name="_widthNazovStat" Hidden="true" />
+      <Field Name="_widthObyvatelia" Hidden="true" />
+      <Field Name="_widthPlocha" Hidden="true" />
+      <Field Name="_widthPrislusnost" Hidden="true" />
+      <Field Name="_widthTyp" Hidden="true" />
+      <Field Name="_widthZastavanost" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="CriterionFormatter">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.117" Y="0.068" Height="0.182" Width="0.583" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgoBAAAAgIEAKAAAAAAAAAAABABAAAAAAA=</HashCode>
+      <FileName>program\data\handlers\formatters\CriterionFormatterUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

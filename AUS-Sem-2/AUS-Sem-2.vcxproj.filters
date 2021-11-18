@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{eaa35f37-e6ee-48f3-899b-e58aec6bf434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{7810c901-e232-4d9a-a015-3897681475c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Common">
+      <UniqueIdentifier>{a5f681f2-2848-4e94-a4e5-e83829281f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data">
+      <UniqueIdentifier>{f008f700-81f8-42f9-a2cb-1516eedd4e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Handlers">
+      <UniqueIdentifier>{f13bc8fd-61b4-46e9-b5f9-a27a8bbf3baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Holders">
+      <UniqueIdentifier>{1754c5ec-b819-4659-a760-0077a36e6232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Parsers">
+      <UniqueIdentifier>{3832a116-8ee0-4ecc-94af-98f081393b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Sources">
+      <UniqueIdentifier>{27f73508-f76a-4f7c-9cc2-0a478bf4da8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Handlers\Criteria">
+      <UniqueIdentifier>{4e7e1703-8030-49ab-9cd9-eba83d2eb058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Handlers\Filters">
+      <UniqueIdentifier>{76bdf302-1d2d-4228-9872-dfaefbad45fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Data\Handlers\Formatters">
+      <UniqueIdentifier>{d955a651-9f12-4997-a5dc-a0f0fd25952d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures">
+      <UniqueIdentifier>{ce2c9b61-f97e-4894-a07e-94e630ca65d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Common">
+      <UniqueIdentifier>{096c4a89-35c0-4a96-80fb-110ee840ef13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Array">
+      <UniqueIdentifier>{0e2b5da3-9388-46da-8e17-aa09514f8bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Graph">
+      <UniqueIdentifier>{73851619-2a57-42b7-a33a-74a31e5f502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\List">
+      <UniqueIdentifier>{d366c515-e791-4e24-8aa7-790025bf7214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\PriorityQueue">
+      <UniqueIdentifier>{04a7f561-1212-4286-b6c9-0dea9c1d9a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Queue">
+      <UniqueIdentifier>{83d20e47-5655-4c2c-8883-c9465f807bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Stack">
+      <UniqueIdentifier>{83d345fa-4af0-44db-ba3d-2e1e5429a517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Table">
+      <UniqueIdentifier>{66d8c550-f38b-40d3-b415-ab5b916cff20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Tree">
+      <UniqueIdentifier>{ad70f10d-76d4-4747-a55b-e93fdbfa71cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Vector">
+      <UniqueIdentifier>{fe910cff-32e0-4fe5-b672-5d8d2c7dd2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Structures\Graph\algorithms">
+      <UniqueIdentifier>{4de39fc6-098d-4329-9ae3-2e0a7d7b744b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="diagrams\DiagramCFormatter.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\DiagramCriterion.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\DiagramFFormatter.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\DiagramFilter.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\Helpers.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="program\data\sources\1_ObceSR.csv">
+      <Filter>Program\Data\Sources</Filter>
+    </None>
+    <None Include="program\data\sources\2_UzemneClenenieSR.csv">
+      <Filter>Program\Data\Sources</Filter>
+    </None>
+    <None Include="program\data\sources\3_ZoznamZoskupeniBytovychJednotiekSR.csv">
+      <Filter>Program\Data\Sources</Filter>
+    </None>
+    <None Include="program\data\sources\4_BytoveJednotkySR.csv">
+      <Filter>Program\Data\Sources</Filter>
+    </None>
+    <None Include="DiagramTest.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\main.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\ds_routines.cpp">
+      <Filter>Program\Structures\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\memory_routines.cpp">
+      <Filter>Program\Structures\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\structure.cpp">
+      <Filter>Program\Structures\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\graph\bi_star_graph.cpp">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\graph\forward_star_graph.cpp">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\graph\graph.cpp">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\graph\graph_with_registration.cpp">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\graph\algorithms\dijkstra.cpp">
+      <Filter>Program\Structures\Graph\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="program\structures\vector\vector.cpp">
+      <Filter>Program\Structures\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="program\common\ConsoleIO.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\Menu.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\common\ConsoleIO.h">
+      <Filter>Program\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\common\heap_monitor.h">
+      <Filter>Program\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\criteria\Criterion.h">
+      <Filter>Program\Data\Handlers\Criteria</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\criteria\CriterionUJ.h">
+      <Filter>Program\Data\Handlers\Criteria</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\filters\Filter.h">
+      <Filter>Program\Data\Handlers\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\filters\FilterByInterval.h">
+      <Filter>Program\Data\Handlers\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\filters\FilterByValue.h">
+      <Filter>Program\Data\Handlers\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\filters\FilterComposite.h">
+      <Filter>Program\Data\Handlers\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\filters\FUJ_Nazov.h">
+      <Filter>Program\Data\Handlers\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\formatters\CriterionFormatter.h">
+      <Filter>Program\Data\Handlers\Formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\formatters\CriterionFormatterUJ.h">
+      <Filter>Program\Data\Handlers\Formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\formatters\DataFormatter.h">
+      <Filter>Program\Data\Handlers\Formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\formatters\FilterFormatter.h">
+      <Filter>Program\Data\Handlers\Formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\formatters\FilterFormatterUJ.h">
+      <Filter>Program\Data\Handlers\Formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\handlers\Sequencer.h">
+      <Filter>Program\Data\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\holders\Canton.h">
+      <Filter>Program\Data\Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\parsers\CsvParser.h">
+      <Filter>Program\Data\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="program\data\Data.h">
+      <Filter>Program\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\ds_routines.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\ds_structure_types.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\heap_monitor.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\memory_routines.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\structure.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\structure_iterator.h">
+      <Filter>Program\Structures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\array\array.h">
+      <Filter>Program\Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\graph\bi_star_graph.h">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\graph\forward_star_graph.h">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\graph\graph.h">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\graph\graph_with_registration.h">
+      <Filter>Program\Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\graph\algorithms\dijkstra.h">
+      <Filter>Program\Structures\Graph\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\list\array_list.h">
+      <Filter>Program\Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\list\linked_list.h">
+      <Filter>Program\Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\list\list.h">
+      <Filter>Program\Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\vector\vector.h">
+      <Filter>Program\Structures\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\tree\binary_tree.h">
+      <Filter>Program\Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\tree\k_way_tree.h">
+      <Filter>Program\Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\tree\multi_way_tree.h">
+      <Filter>Program\Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\tree\tree.h">
+      <Filter>Program\Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\binary_search_tree.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\hash_table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\linked_table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\sequence_table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\sorted_sequence_table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\treap.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\table\unsorted_sequence_table.h">
+      <Filter>Program\Structures\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\stack\explicit_stack.h">
+      <Filter>Program\Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\stack\implicit_stack.h">
+      <Filter>Program\Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\stack\stack.h">
+      <Filter>Program\Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\queue\explicit_queue.h">
+      <Filter>Program\Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\queue\implicit_queue.h">
+      <Filter>Program\Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\queue\queue.h">
+      <Filter>Program\Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\heap.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_limited_sorted_array_list.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_linked_list.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_list.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_sorted_array_list.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_two_lists.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\structures\priority_queue\priority_queue_unsorted_array_list.h">
+      <Filter>Program\Structures\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="program\common\SvkStr.h">
+      <Filter>Program\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="program\data\sources\codepage(windows)1250.txt">
+      <Filter>Program\Data\Sources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

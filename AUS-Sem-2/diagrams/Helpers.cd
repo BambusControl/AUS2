@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="CsvParser">
+    <Position X="0.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>program\data\parsers\CsvParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleIO">
+    <Position X="0.5" Y="0.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAIAAQAgAAAAAAAAAAgAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>program\common\ConsoleIO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SvkStr">
+    <Position X="2.75" Y="3" Width="3.5" />
+    <Members>
+      <Method Name="~SvkStr" Hidden="true" />
+      <Method Name="SvkStr" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>program\common\SvkStr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
